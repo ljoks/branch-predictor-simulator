@@ -1,12 +1,8 @@
 import java.lang.Math;
 
-public class Smith {
+public class Smith extends Predictor{
     int bits;
     int counter;
-    int max; // max number the counter can reach
-    int taken; // predict taken if >= this
-    int predictions;
-    int mispredictions;
 
     public Smith(int bits) {
         this.bits = bits;
