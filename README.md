@@ -1,5 +1,5 @@
 # branch-predictor-simulator
-Smith n-bit predictor and Gshare predictor
+Simulates smith n-bit predictor, bimodal predictor, and Gshare predictor
 
 ## To run
 In `src/`, run `make` to build java `.class` files.
