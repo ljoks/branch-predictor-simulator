@@ -18,9 +18,8 @@
             "projectName": "branch-predictor-simulator_727aa5ec",
             "args": [
                 "gshare",
-                "11",
-                "5",
-                "traces\\jpeg_trace.txt"
+                "7",
+                "traces\\perl_trace.txt"
             ]
         }
     ]

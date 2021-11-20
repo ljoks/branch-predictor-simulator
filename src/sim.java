@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 class sim {
 	public static void main(String[] args) {
-		// Gshare predictor = new Gshare(11, 5);
 		try{
 			Predictor predictor;
 			File trace;
@@ -18,7 +17,6 @@ class sim {
 				predictor = new Gshare(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
 				trace = new File(args[3]);
 			}
-			// File trace = new File("traces\\jpeg_trace.txt");
 
 			Scanner scan = new Scanner(trace);
 			while(scan.hasNextLine()) {
@@ -56,8 +54,5 @@ class sim {
 			System.out.println("an error occurred: ");
 			e.printStackTrace();
 		}
-		
-
-
 	}
 }
